@@ -12,22 +12,19 @@ body {
   display: none;
   padding-left: 50px;
 }
-.commons{
-    margin: 0 2-px;
-    text-align: center;
-    border-radius:10px;
-    color: white;
-    padding:30px;
+.commons {
+  margin: 0 2-px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
 }
 .deposit {
   background-color: rgb(33, 33, 201);
- 
 }
 .withdraw {
   background-color: rgb(190, 201, 33);
-
 }
 .balance {
   background-color: rgb(192, 30, 197);
-
 }
