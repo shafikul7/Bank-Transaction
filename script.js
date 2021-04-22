@@ -23,19 +23,21 @@ const withdrawAmount = document.getElementById("withdraw-Btn");
 withdrawAmount.addEventListener("click", function () {
     const withdrawNumber = getInputNumber("withdrawAmount");
     updateSpanText("currentWithdraw", withdrawNumber);
-    updateSpanText("currentNumber", withdrawNumber);
-    document.getElementById("withdrawNumber").value = "";
+    updateSpanText("currentBalance",-1 * withdrawNumber);
+    document.getElementById("withdrawAmount").value = "";
 })
 
 function getInputNumber(id) {
 
     const amount = document.getElementById(id).value;
-    const withdrawNumber = parseFloat(amount);
-    updateSpanText("currentWithdraw", withdrawNumber);
-    }
+    const amountNumber = parseFloat(amount);
+    // updateSpanText("currentWithdraw", withdrawNumber);
+    return amountNumber;
+
+}
 
 
-    function updateSpanText(id, depositNumber) {
+function updateSpanText(id, depositNumber) {
 
     const current = document.getElementById(id).innerText;
     const currentNumber = parseFloat(current);
