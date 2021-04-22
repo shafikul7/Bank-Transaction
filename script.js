@@ -6,7 +6,9 @@ loginBtn.addEventListener("click", function () {
     const translationArea = document.getElementById("translation-area");
     translationArea.style.display = "block";
 })
+
 // deposit button even handler
+
 const depositButton = document.getElementById("depositBtn");
 depositButton.addEventListener("click", function () {
     const depositAmount = document.getElementById("depositAmount").value;
@@ -19,6 +21,7 @@ depositButton.addEventListener("click", function () {
 });
 
 //withdraw button handler
+
 const withdrawAmount = document.getElementById("withdraw-Btn");
 withdrawAmount.addEventListener("click", function () {
     const withdrawNumber = getInputNumber("withdrawAmount");
@@ -31,12 +34,8 @@ function getInputNumber(id) {
 
     const amount = document.getElementById(id).value;
     const amountNumber = parseFloat(amount);
-    // updateSpanText("currentWithdraw", withdrawNumber);
     return amountNumber;
-
 }
-
-
 function updateSpanText(id, depositNumber) {
 
     const current = document.getElementById(id).innerText;

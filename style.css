@@ -1,11 +1,36 @@
 body {
   padding: 100px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .submit-area {
+  background-color: azure;
   margin-top: 50px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px gray;
   padding: 50px;
+}
+.btn {
+  padding: 10px 30px;
+  border :none;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  
+}
+.head-text{
+  color: #fff;
+  text-align: center;
+
 }
 
 #translation-area {
