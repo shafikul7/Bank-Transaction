@@ -4,7 +4,7 @@ loginBtn.addEventListener("click", function () {
     const loginArea = document.getElementById("login-area")
     loginArea.style.display = "none";
     const translationArea = document.getElementById("translation-area");
-    translationArea.style.display = "block";
+    translationArea.style.display = "block"; 
 })
 
 // deposit button even handler

@@ -17,7 +17,7 @@ body {
 }
 .btn {
   padding: 10px 30px;
-  border :none;
+  border: none;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -25,12 +25,10 @@ body {
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-  
 }
-.head-text{
+.head-text {
   color: #fff;
   text-align: center;
-
 }
 
 #translation-area {
@@ -45,11 +43,32 @@ body {
   padding: 30px;
 }
 .deposit {
-  background-color: rgb(33, 33, 201);
+  /* background-color: rgb(33, 33, 201); */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 .withdraw {
-  background-color: rgb(190, 201, 33);
+  /* background-color: rgb(190, 201, 33); */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 .balance {
-  background-color: rgb(192, 30, 197);
+  /* background-color: rgb(192, 30, 197); */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
