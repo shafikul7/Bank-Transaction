@@ -42,16 +42,8 @@ body {
   color: white;
   padding: 30px;
 }
-.deposit {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-}
-.withdraw {
+.deposit,.withdraw,.balance{
+  /* background-color: rgb(33, 33, 201); */
   background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
