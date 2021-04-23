@@ -43,7 +43,6 @@ body {
   padding: 30px;
 }
 .deposit,.withdraw,.balance{
-  /* background-color: rgb(33, 33, 201); */
   background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
